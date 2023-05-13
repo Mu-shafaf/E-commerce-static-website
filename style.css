@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Comfortaa:wght@500&family=Dosis:wght@600&family=Josefin+Sans:wght@500;600&family=Jost:wght@500;700&family=Nunito:wght@500&family=Open+Sans:wght@500&family=Orbitron:wght@700&family=Poppins:wght@500;600&family=Quicksand:wght@500&family=Raleway:wght@600&family=Righteous&display=swap');
+
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 130px;
+    height: auto;
+}
+header{
+    background-color: whitesmoke;
+    box-shadow: rgba(129, 125, 125, 0.185) 0px 7px 29px 0px;
+    width: 100%;
+    ;
+    
+}
+header nav  ul li{
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#menu-bar{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+#menu-bar:focus, #menu-bar:active{
+    border: none !important;
+    box-shadow: none;
+    outline: none !important;
+}
+.fa-1x {
+    font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
+
+  #home-section{
+    background-color: whitesmoke;
+  }
+  #title-2{
+    color: #17a2b8;
+    font-weight: 600;
+  }
+  #title-1{
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 4em;
+  }
+  #titles{
+    padding-top: 7em;
+  }
+  .buy{
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #198191;
+    border-radius: 50px;
+    width: 6em;
+    height: 2em;
+    color: none;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 2em;
+  }
+  .buy:focus,.buy:active{
+    outline: none;
+    border: none;
+  }
+  .buy:hover{
+    background-color: #17a2b8;
+  }
+  #images{
+    padding-top: 7em;
+  }
+  #home-img-one{
+    width: 200px;
+    height: 600px;
+  }
+.side-img{
+    margin-top: -4.5em;
+    margin-left: 5em;
+    z-index: -1;
+}
+#blank{
+    height: 6em;
+    width: 100%;
+}
+.Featured{
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 3em;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 600;
+}
+#f1{
+   border-radius:25px;
+}
+.fa-star{
+    color: rgb(255, 208, 0);
+}
+.fa-cart-shopping{
+    color: #1f555e;
+    font-size: 1.5em;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    background-color: rgba(0, 238, 255, 0.267);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12.5px;
+    padding-left: -2px;
+    transition: .6s;
+}
+.fa-cart-shopping:hover,.fa-cart-shopping:active{
+    background-color: #17b8881a;
+}
+.fa-heart{
+    font-size: 1.3em;
+}
+.card{
+    cursor: pointer;
+}
+.fa-bag-shopping{
+    font-size: 1.3em;
+}
+#banner{
+    background-image: url(images/banner.jpg);
+    margin-top: 4em;
+}
+.explore{
+    border-radius: 8px;
+    width: 7em;
+    height: 2.5em;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: white;
+    transition: .7s;
+}
+.explore:focus{
+    outline: none;
+    border: none;
+}
+.explore:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+footer{
+  background-color: #0b1320;
+}
+#Newsletter{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.6em;
+  color: white;
+  font-weight: 500;
+  padding-top: 2em;
+
+}
+#Newsletter-p{
+  color:rgb(206, 195, 195);
+  font-weight: 500;
+}
+#form{
+  padding-top: 4em;
+}
+.sm{
+  border-radius: 50%;
+  background-color: #1db8cf;
+  color: white;
+  height: 2em;
+  width: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 12px;
+  margin-left: 10px;
+}
